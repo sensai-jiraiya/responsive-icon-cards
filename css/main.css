@@ -16,3 +16,23 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card,
+.card-img {
+  margin: 0 0 .75em;
+}
+
+.card-img {
+  text-align: center;
+  padding: 0 0 .75rem;
+}
+
+.card-img img {
+  width: 50px;
+}
